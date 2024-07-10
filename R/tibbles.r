@@ -1,0 +1,5 @@
+install.packages("tidyverse")
+library(tidyverse)
+data(diamonds)
+view(diamonds)
+as_tibble(diamonds)
